@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "name": "Run program",
+      "type": "node",
+      "request": "launch",
+
+      "program": "${workspaceFolder}/index.ts",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "Watch code changes",
+      "type": "node",
+      "request": "launch",
+      "preLaunchTask": "tsc:watch",
+      "outFiles": ["${workspaceFolder}/build"]
+    }
+  ]
+}
