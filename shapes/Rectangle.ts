@@ -6,6 +6,14 @@ export default class Rectangle extends Shape {
 
   constructor (x: number, y: number, width: number, height: number) {
     super(x, y)
+
+    if (width <= 0) {
+      throw new Error('Width must be bigger than zero')
+    }
+    if (height <= 0) {
+      throw new Error('Height must be bigger than zero')
+    }
+
     this.width = width
     this.height = height
   }

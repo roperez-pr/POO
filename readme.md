@@ -1,5 +1,7 @@
 # Desafio
 
-1.- En el programa principal, crear una instancia de la clase Triangle, con centro (30,100), con una base de 50 y una altura de -5.
-2.- Ejecute el programa
-3.- Existe un triángulo con las características definidas en el punto 1. Comente con sus compañeros y expliquen sus conclusiones.
+PRINCIPIO DE SUSTITUCIÓN DE LISKOV
+
+1.- Crear la clase Square, utilice la clase Rectangle como base (HERENCIA) para crearla.
+2.- Cree una instancia de la clase Square, con centro en (100,100) y un lado de 20.
+3.- Imprima los datos de está nueva instancia.

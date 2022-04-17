@@ -6,6 +6,13 @@ export default class Triangle extends Shape {
 
   constructor (x: number, y: number, base: number, height: number) {
     super(x, y)
+    if (base <= 0) {
+      throw new Error('Base must be bigger than zero')
+    }
+    if (height <= 0) {
+      throw new Error('Height must be bigger than zero')
+    }
+
     this.base = base
     this.height = height
   }
