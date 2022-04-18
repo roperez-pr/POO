@@ -1,16 +1,11 @@
-import Circle from './shapes/Circle'
 import Rectangle from './shapes/Rectangle'
 import Square from './shapes/Square'
-import Triangle from './shapes/Triangle'
-
-const circle: Circle = new Circle(10, 5, 30)
-circle.draw()
+import App from './RectangleApp'
 
 const rectangle: Rectangle = new Rectangle(20, 20, 5, 10)
-rectangle.draw()
+const anotherRectangle: Rectangle = new Square(100, 100, 20)
 
-const tirangle: Triangle = new Triangle(20, 20, 5, 10)
-tirangle.draw()
+const app: App = new App()
 
-const square: Square = new Square(100, 100, 20)
-square.draw()
+app.doTestRectangleArea(rectangle)
+app.doTestRectangleArea(anotherRectangle)

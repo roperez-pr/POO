@@ -15,6 +15,10 @@ export default class Circle extends Shape {
     return this.radio
   }
 
+  public setRadio (radio: number): void {
+    this.radio = radio
+  }
+
   public getArea (): number {
     return Math.PI * Math.pow(this.radio, 2)
   }

@@ -1,7 +1,6 @@
-# Desafio
+# The Liskov Substitution Principle
 
-PRINCIPIO DE SUSTITUCIÓN DE LISKOV
+The principle defines that objects of a superclass shall be replaceable with objects of its subclasses without breaking the application.
 
-1.- Crear la clase Square, utilice la clase Rectangle como base (HERENCIA) para crearla.
-2.- Cree una instancia de la clase Square, con centro en (100,100) y un lado de 20.
-3.- Imprima los datos de está nueva instancia.
+## Desafio
+Modifique el código para cumplir con el principio de sustitución de Liskov.

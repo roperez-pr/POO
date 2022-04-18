@@ -17,8 +17,9 @@ export default abstract class Shape {
   public draw (): void {
     console.log(`Shape center at (${this.x}, ${this.y})`)
     console.log(`Shape area (${this.getArea()})`)
-    console.log(`Shape info:`)
     console.log(`----------------------------`)
+    console.log(`Shape info`)
+    console.log(`============================`)
     console.log(this.getInfo())
     console.log(`----------------------------`)
   }

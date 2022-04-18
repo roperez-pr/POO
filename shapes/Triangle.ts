@@ -20,10 +20,15 @@ export default class Triangle extends Shape {
   public getBase (): number {
     return this.base
   }
+  public setBase (base: number): void {
+    this.base = base
+  }
   public getHeight (): number {
     return this.height
   }
-
+  public setHeight (height: number): void {
+    this.height = height
+  }
   public getArea (): number {
     return (this.base * this.height) / 2
   }

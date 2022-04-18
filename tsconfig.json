@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es6",
+    "target": "es5",
     "module": "commonjs",
-    "outDir": "build",
+    "outDir": ".build",
     "sourceMap": true
   },
   "exclude": ["node_modules", "**/node_modules/*"]
