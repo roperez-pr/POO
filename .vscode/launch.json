@@ -1,7 +1,6 @@
 {
   "version": "0.2.0",
   "configurations": [
-    
     {
       "name": "Run program",
       "type": "node",
@@ -15,7 +14,7 @@
       "type": "node",
       "request": "launch",
       "preLaunchTask": "tsc:watch",
-      "outFiles": ["${workspaceFolder}/build"]
+      "outFiles": ["${workspaceFolder}/.build"]
     }
   ]
 }
